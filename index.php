@@ -5,84 +5,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-  <link rel="icon" type="image/x-icon"
-    href="https://www.runforplanet.cz/wp-content/uploads/2024/02/aquamarine_symbol_Kreslici-platno-1-1.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://kit.fontawesome.com/8cf785f4c8.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="https://www.runforplanet.cz/wp-content/uploads/2024/02/aquamarine_symbol_Kreslici-platno-1-1.png">
 
   <title>Tree RFP</title>
   <script src="https://unpkg.com/feather-icons"></script>
-  <style>
-    body {
-      background-color: black;
-      background: url("https://www.runforplanet.cz/wp-content/uploads/2024/02/IMG_8354_1.jpg");
-      /* The image used for background */
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
 
-    }
-
-    .black {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    .container {
-
-      width: 100%;
-      height: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .links-container {
-      display: flex;
-      flex-direction: column;
-      jusify-content: center;
-      align-items: center;
-    }
-
-    .links-container a {
-      width: 80%;
-    }
-
-    .w3-theme-l1:hover {
-      background-color: #1E8493 !important;
-    }
-
-    .margin-top-2 {
-      margin-top: 32px;
-    }
-
-    .bottom {
-      width: 100%;
-      text-align: center;
-      width: auto;
-      font-weight: bolder;
-    }
-
-    .bottom span {
-      color: #ed4d82;
-    }
-
-    .bottom svg {
-      stroke: #ed4d82;
-      fill: #ed4d82;
-    }
-
-    @media (min-width: 768px) {
-      .link {
-        width: 100%;
-      }
-    }
-
-    @media (min-width: 576px) {
-      .container {
-        max-width: 540px;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -92,59 +21,26 @@
 
       <!-- Image and name container. Change to your pictue here. -->
       <div style="text-align: center">
-        <img src="https://www.runforplanet.cz/wp-content/uploads/2024/02/aquamarine_symbol_Kreslici-platno-1-1.png"
-          class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
-        <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Hi, I'm Jane!</span></p>
-        <p style="font-weight: bolder;">Check out my links!</p>
+        <img src="https://www.runforplanet.cz/wp-content/uploads/2024/02/aquamarine_symbol_Kreslici-platno-1-1.png" class="" alt="image" width="150px" height="150px" style="border-radius: 50%; ">
+        <h1>Run for Planet</h1>
       </div>
 
-      <!-- Links section 1. Replace the # inside of the "" with your links. -->
-      <h4 class="margin-top-2" style="text-align: center;">MY SOCIAL NETWORKS</h4>
       <div class="links-container">
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook</a>
+        <a href="https://runforplanet.cz" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank"><i class="fa-solid fa-person-running"></i> Web Run for Planet</a>
         <br>
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+        <a href="https://filmypodpevnosti.cz" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank"><i class="fa-solid fa-film"></i> Web Filmy pod Pevností</a>
+      </div>
+
+      <h4 class="margin-top-2" style="text-align: center;">Sociální sítě</h4>
+      <div class="links-container">
+        <a href="https://www.instagram.com/run.for.planet/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
         <br>
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Twitter</a>
-        <br>
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
-      </div>
-
-      <!-- Links section 2. Replace the # inside of the "" with your links. -->
-      <h4 class="margin-top-2" style="text-align: center;">MY CV</h4>
-      <div class="links-container">
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Curriculum Vitae</a>
-      </div>
-
-      <!-- Links section 3. Replace the # inside of the "" with your links. -->
-      <h4 class="margin-top-2" style="text-align: center;">MY BLOG</h4>
-      <div class="links-container">
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Hashnode</a>
-      </div>
-
-      <!-- Links section 3. Replace the # inside of the "" with your links. -->
-      <h4 class="margin-top-2" style="text-align: center;">MY BUSINESS</h4>
-      <div class="links-container">
-        <a href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Business</a>
+        <a href="https://www.facebook.com/runforplaner2020" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
       </div>
 
       <!-- Bottom section 3 -->
       <div class="bottom margin-top-2 w3-padding w3-round">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="feather feather-heart">
-          <path
-            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-          </path>
-        </svg>
-        <span style="vertical-align: 7px;"> 2021 - Jane Doe</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="feather feather-heart">
-          <path
-            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-          </path>
-        </svg>
+        <p style="font-size: 10px;">© 2021-2024 Run For Planet. Created with ❤️ by <a target="_blank" href="https://djdevs.eu" rel="noopener">DjDevs.eu</a> | v<?php require("version.txt"); ?> | <a target="_blank" href="https://status.djdevs.eu">Status systémů</a></p>
       </div>
 
     </div>
